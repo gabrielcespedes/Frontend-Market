@@ -1,0 +1,77 @@
+{
+    "artists": [
+      {
+        "user_id": 1,
+        "username": "Ansel Adams",
+        "description": "Conocido por sus impresionantes fotografías de paisajes y su trabajo en el Parque Nacional de Yosemite.",
+        "email": "artista_1@example.com",
+        "password": "artist1",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "user_id": 2,
+        "username": "Dorothea Lange",
+        "description": "Documentalista y fotoperiodista famosa por sus fotografías durante la Gran Depresión de los Estados Unidos.",
+        "email": "artista_2@example.com",
+        "password": "artist2",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "user_id": 3,
+        "username": "Steve McCurry",
+        "description": "Reconocido por su icónica fotografía 'La niña afgana' y su extenso trabajo en fotoperiodismo.",
+        "email": "artista_3@example.com",
+        "password": "artist3",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "user_id": 4,
+        "username": "Annie Leibovitz",
+        "description": "Renombrada fotógrafa de retratos y colaboradora de la revista Vanity Fair y Rolling Stone.",
+        "email": "artista_4@example.com",
+        "password": "artist4",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "user_id": 5,
+        "username": "Sebastião Salgado",
+        "description": "Fotógrafo documentalista brasileño famoso por sus proyectos sobre temas sociales y medioambientales.",
+        "email": "artista_5@example.com",
+        "password": "artist5",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      },
+      {
+        "user_id": 6,
+        "username": "Henri Cartier-Bresson",
+        "description": "Considerado el padre del fotoperiodismo moderno y fundador de la agencia Magnum Photos.",
+        "email": "artista_6@example.com",
+        "password": "artist6",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      },
+      {
+        "user_id": 7,
+        "username": "Cindy Sherman",
+        "description": "Conocida por sus autorretratos artísticos y su exploración de la identidad y la representación.",
+        "email": "artista_7@example.com",
+        "password": "artist7",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+      },
+      {
+        "user_id": 8,
+        "username": "Helmut Newton",
+        "description": "Fotógrafo de moda y retratos conocido por su estilo provocativo y glamuroso.",
+        "email": "artista_8@example.com",
+        "password": "artist8",
+        "role": "artista",
+        "user_image": "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=723&q=80"
+      }
+    ]
+  }
+  
