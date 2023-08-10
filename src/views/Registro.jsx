@@ -28,7 +28,7 @@ const RegisterView = () => {
                 window.location.reload();
             }, 500);
 
-            navigate("/Login");
+            // navigate("/Login");
 
         }   catch (error) {
             alert("Algo salió mal.");
