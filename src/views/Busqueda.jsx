@@ -27,7 +27,7 @@ const Busqueda = () => {
                 } else if (elemento.title.toLocaleLowerCase().includes(input_filter.toLocaleLowerCase()) || elemento.description.toLocaleLowerCase().includes(input_filter.toLocaleLowerCase())) {
                     return elemento;
                 }
-                return elemento;
+                return false;
             }).map(
                 (element, index) => (
                     <div key={index} className='col-12 col-md-6 col-xl-3'>
