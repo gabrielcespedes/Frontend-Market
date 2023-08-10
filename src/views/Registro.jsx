@@ -3,12 +3,12 @@ import { Container } from 'react-bootstrap';
 // import UserViewBuyer from './UserViewBuyer';
 
 import axios from 'axios';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 // import MyContext from '../my_context';
 
 const RegisterView = () => {  
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     const [usuario, setUsuario] = useState({});    
 
     const handleSubmit = ({ target: { value, name } }) => {
@@ -26,7 +26,7 @@ const RegisterView = () => {
 
             
 
-            // navigate("/Login");
+            navigate("/");
 
         }   catch (error) {
             alert("Algo salió mal.");
