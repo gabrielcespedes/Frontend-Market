@@ -33,8 +33,9 @@ const Carrito = () => {
             <div className="container bg-white p-3">
                 {cartInfo.filter((element) => {
                     if (element.quantity > 0) {
-                        return element;
+                        return true;
                     }
+                    return false;
                 }).map((element, index) => {return(
                 <div className="d-flex"><p key={index}>
                     <img src={element.url_image} width="100" alt="imagen obra"></img> {element.title}</p> 
