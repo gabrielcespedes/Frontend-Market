@@ -22,11 +22,9 @@ const RegisterView = () => {
         const endpoint = "/auth/register";
         try {
             await axios.post(urlServer + endpoint, usuario);
-            alert("Usuario registrado con éxito");                 
+            alert("Usuario registrado con éxito");  
 
-            
-
-            navigate("/");
+            navigate("/Login");
 
         }   catch (error) {
             alert("Algo salió mal.");
