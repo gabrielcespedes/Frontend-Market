@@ -24,7 +24,7 @@ const RegisterView = () => {
             await axios.post(urlServer + endpoint, usuario);
             alert("Usuario registrado con éxito");  
 
-            navigate("/Login");
+            navigate("/");
 
             setTimeout(() => {
                 window.location.reload();
