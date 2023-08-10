@@ -11,8 +11,10 @@ const Favoritos = () => {
         <div className="row w-100 my-5">
             {artworks.filter((elemento) => {
                 if (user.favorites.includes(elemento.product_id)) {
-                    return elemento;                    
-                }}).map(
+                    return true;                    
+                }
+                return false;
+            }).map(
                 (element, index) => (
                     <div key={index} className='col-12 col-md-6 col-xl-3'>
                         <div className='card m-auto my-4 tarjeta'>
