@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 // import UserViewBuyer from './UserViewBuyer';
 
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 // import MyContext from '../my_context';
 
 const RegisterView = () => {  
