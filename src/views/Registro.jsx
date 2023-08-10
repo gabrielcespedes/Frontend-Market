@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 const RegisterView = () => {  
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const [usuario, setUsuario] = useState({});    
 
     const handleSubmit = ({ target: { value, name } }) => {
