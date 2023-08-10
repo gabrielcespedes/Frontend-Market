@@ -18,7 +18,7 @@ const RegisterView = () => {
     };
 
     const registrarUsuario = async () => {
-        const urlServer = "http://localhost:3000";
+        const urlServer = `${process.env.REACT_APP_BACKEND_URL}`;
         const endpoint = "/auth/register";
         try {
             await axios.post(urlServer + endpoint, usuario);

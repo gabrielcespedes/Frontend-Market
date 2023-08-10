@@ -40,7 +40,7 @@ const LoginView = () => {
     };
 
     const iniciarSesion = async () => {
-        const urlServer = "http://localhost:3000";
+        const urlServer = `${process.env.REACT_APP_BACKEND_URL}`;
         const endpoint = "/auth/login";
         const { email, password } = usuarioLocal;
         try {
