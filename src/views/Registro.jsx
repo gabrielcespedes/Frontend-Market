@@ -26,6 +26,10 @@ const RegisterView = () => {
 
             navigate("/Login");
 
+            setTimeout(() => {
+                window.location.reload();
+            }, 500);
+
         }   catch (error) {
             alert("Algo salió mal.");
             console.log(error);
