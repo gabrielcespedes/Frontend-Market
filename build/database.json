@@ -1,0 +1,211 @@
+{
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Colorful Abstract",
+      "description": "Vibrant and expressive abstract painting with a mix of colors.",
+      "price": 350,
+      "url_image": "https://images.unsplash.com/photo-1682685795463-0674c065f315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1326&q=80",
+      "artist_id": 8
+    },
+    {
+      "id": 2,
+      "title": "Nature's Beauty",
+      "description": "A stunning photograph capturing the beauty of nature.",
+      "price": 150,
+      "url_image": "https://plus.unsplash.com/premium_photo-1688431299086-bf835ca28a9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 4
+    },
+    {
+      "id": 3,
+      "title": "Portrait of Grace",
+      "description": "An exquisite portrait of a graceful woman.",
+      "price": 500,
+      "url_image": "https://images.unsplash.com/photo-1689344682959-d8b85fdab21a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 6
+    },
+    {
+      "id": 4,
+      "title": "Urban Exploration",
+      "description": "A captivating photograph showcasing the beauty of urban architecture.",
+      "price": 200,
+      "url_image": "https://images.unsplash.com/photo-1688503677973-0c68fcc15175?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80",
+      "artist_id": 7
+    },
+    {
+      "id": 5,
+      "title": "The Starry Night",
+      "description": "A mesmerizing painting depicting a starry night sky.",
+      "price": 800,
+      "url_image": "https://images.unsplash.com/photo-1687360440155-81bdb9ecd713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "artist_id": 1
+    },
+    {
+      "id": 6,
+      "title": "Surreal Dreams",
+      "description": "A surreal and dreamlike illustration.",
+      "price": 300,
+      "url_image": "https://images.unsplash.com/photo-1688658108841-89577bba566a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "artist_id": 3
+    },
+    {
+      "id": 7,
+      "title": "Wildlife Majesty",
+      "description": "A powerful photograph capturing the majesty of wildlife.",
+      "price": 180,
+      "url_image": "https://images.unsplash.com/photo-1689163928284-ccd49ac5248a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 5
+    },
+    {
+      "id": 8,
+      "title": "Abstract Thoughts",
+      "description": "An abstract artwork that sparks contemplation.",
+      "price": 250,
+      "url_image": "https://plus.unsplash.com/premium_photo-1678329516034-8fe848659874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "artist_id": 2
+    },
+    {
+      "id": 9,
+      "title": "Landscapes of Serenity",
+      "description": "A collection of serene landscape paintings.",
+      "price": 450,
+      "url_image": "https://plus.unsplash.com/premium_photo-1689177357515-61040a71d890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 3
+    },
+    {
+      "id": 10,
+      "title": "The Enchanted Forest",
+      "description": "A magical painting of an enchanted forest.",
+      "price": 380,
+      "url_image": "https://images.unsplash.com/photo-1689363199550-d0f417ed21db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 1
+    },
+    {
+      "id": 11,
+      "title": "City Lights",
+      "description": "A breathtaking photograph capturing the beauty of city lights at night.",
+      "price": 170,
+      "url_image": "https://images.unsplash.com/photo-1688048110668-f07715ee9156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=733&q=80",
+      "artist_id": 8
+    },
+    {
+      "id": 12,
+      "title": "Expressions of Joy",
+      "description": "A heartwarming painting depicting expressions of joy.",
+      "price": 320,
+      "url_image": "https://images.unsplash.com/photo-1689284255307-04257bb8df0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 2
+    },
+    {
+      "id": 13,
+      "title": "Ethereal Waters",
+      "description": "An ethereal and tranquil painting of a waterfront.",
+      "price": 410,
+      "url_image": "https://images.unsplash.com/photo-1687360440648-ec9708d52086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1276&q=80",
+      "artist_id": 6
+    },
+    {
+      "id": 14,
+      "title": "The Lost Horizon",
+      "description": "An evocative artwork illustrating a distant and mysterious horizon.",
+      "price": 290,
+      "url_image": "https://images.unsplash.com/photo-1689595131476-e141af904891?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 7
+    },
+    {
+      "id": 15,
+      "title": "Dance of Fire",
+      "description": "A fiery and passionate depiction of dance.",
+      "price": 270,
+      "url_image": "https://images.unsplash.com/photo-1689308271349-e685f6ec405a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1828&q=80",
+      "artist_id": 4
+    },
+    {
+      "id": 16,
+      "title": "Memories Captured",
+      "description": "A collection of photographs capturing timeless memories.",
+      "price": 180,
+      "url_image": "https://images.unsplash.com/photo-1688917169732-834612d59842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+      "artist_id": 5
+    },
+    {
+      "id": 17,
+      "title": "Whimsical World",
+      "description": "A whimsical and imaginative artwork.",
+      "price": 330,
+      "url_image": "https://images.unsplash.com/photo-1689236913171-2f53681b8e82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      "artist_id": 2
+    },
+    {
+      "id": 18,
+      "title": "Majestic Mountains",
+      "description": "A majestic painting showcasing the grandeur of mountains.",
+      "price": 480,
+      "url_image": "https://images.unsplash.com/photo-1682687982502-b05f0565753a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 5
+    },
+    {
+      "id": 19,
+      "title": "Rays of Hope",
+      "description": "A hopeful artwork with rays of light shining through the clouds.",
+      "price": 250,
+      "url_image": "https://images.unsplash.com/photo-1689198163476-d80775a6e853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 8
+    },
+    {
+      "id": 20,
+      "title": "The Dancer's Elegance",
+      "description": "An elegant portrayal of a dancer in motion.",
+      "price": 320,
+      "url_image": "https://images.unsplash.com/photo-1688927036300-3c38b1e9cc01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 7
+    },
+    {
+      "id": 21,
+      "title": "Ancient Wonders",
+      "description": "A depiction of ancient wonders of the world.",
+      "price": 390,
+      "url_image": "https://images.unsplash.com/photo-1689126437563-f5d936a06713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 3
+    },
+    {
+      "id": 22,
+      "title": "Abstract Fusion",
+      "description": "A fusion of abstract shapes and colors.",
+      "price": 280,
+      "url_image": "https://plus.unsplash.com/premium_photo-1687411984360-9560bc31048f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "artist_id": 6
+    },
+    {
+      "id": 23,
+      "title": "The Symphony",
+      "description": "An artistic representation of a symphony performance.",
+      "price": 210,
+      "url_image": "https://images.unsplash.com/photo-1688671141922-a84498755e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 1
+    },
+    {
+      "id": 24,
+      "title": "Graceful Swans",
+      "description": "A serene painting depicting graceful swans on a lake.",
+      "price": 370,
+      "url_image": "https://images.unsplash.com/photo-1688903550207-392083c9a5a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "artist_id": 2
+    },
+    {
+      "id": 25,
+      "title": "Dreams of Flight",
+      "description": "A dreamy artwork portraying fantasies of flight.",
+      "price": 190,
+      "url_image": "https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+      "artist_id": 7
+    },
+    {
+      "id": 26,
+      "title": "The Ancient Forest",
+      "description": "A mystical painting capturing the enchantment of an ancient forest.",
+      "price": 490,
+      "url_image": "https://images.unsplash.com/photo-1688725755373-10d1bb23b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "artist_id": 4
+    }
+]}
