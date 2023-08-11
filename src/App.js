@@ -38,7 +38,7 @@ function App() {
   const [user, setUser] = useState(null);
   const [cartInfo, setCartInfo] = useState([]);
   const [favorites, setFavorites] = useState([]);
-  const urlServer = "http://localhost:3000";
+  const urlServer = `${process.env.REACT_APP_BACKEND_URL}`;
   const [reloadData, setReloadData] = useState(false);
 
   const sustractFunction = async (id) => {
