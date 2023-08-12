@@ -32,11 +32,13 @@ const RegisterView = () => {
 
             // setUsersInfo([...usersInfo, new_user]);
 
-            navigate("/Login");
-
             setTimeout(() => {
                 window.location.reload();
             }, 500);
+
+            navigate("/Login");
+
+            
 
         }   catch (error) {
             alert("Algo salió mal.");
