@@ -24,8 +24,8 @@ const RegisterView = () => {
         const endpoint = "/auth/register";
         try {
             await axios.post(urlServer + endpoint, usuario);
-            alert("Usuario registrado con éxito");  
-
+            alert("Usuario registrado con éxito");
+            
             const new_user = {
                 user_id: usuario.user_id,
                 username: usuario.username,
@@ -35,8 +35,11 @@ const RegisterView = () => {
 
             setUsersInfo([...usersInfo, new_user]);
 
+            navigate("/Login");
 
-            navigate("/Login");            
+            setTimeout(() => {
+                window.location.reload();
+            }, 500);
 
         }   catch (error) {
             alert("Algo salió mal.");
