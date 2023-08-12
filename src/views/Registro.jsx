@@ -1,15 +1,12 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 // import UserViewBuyer from './UserViewBuyer';
 
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import MyContext from '../my_context';
+// import MyContext from '../my_context';
 
 const RegisterView = () => {
-    
-    const { usersInfo, setUsersInfo } = useContext(MyContext);
-
     const navigate = useNavigate();
     const [usuario, setUsuario] = useState({});    
 
@@ -26,14 +23,14 @@ const RegisterView = () => {
             await axios.post(urlServer + endpoint, usuario);
             alert("Usuario registrado con éxito");
             
-            const new_user = {
-                user_id: usuario.user_id,
-                username: usuario.username,
-                email: usuario.email,
-                favorites: []
-            }
+            // const new_user = {
+            //     user_id: usuario.user_id,
+            //     username: usuario.username,
+            //     email: usuario.email,
+            //     favorites: []
+            // }
 
-            setUsersInfo([...usersInfo, new_user]);
+            // setUsersInfo([...usersInfo, new_user]);
 
             navigate("/Login");
 
