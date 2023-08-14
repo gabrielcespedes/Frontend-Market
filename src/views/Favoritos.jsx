@@ -18,7 +18,7 @@ const Favoritos = () => {
                 (element, index) => (
                     <div key={index} className='col-12 col-md-6 col-xl-3'>
                         <div className='card m-auto my-4 tarjeta'>
-                            <img onClick={() => navigate(`/artwork/${element.product_id}`)} src={element.url_image} alt="imagen obra" className="card-img-top"></img>
+                            <img onClick={() => navigate(`/artwork/${element.product_id}`)} src={element.url_image} alt="imagen obra" className="card-img-top heart_pointer"></img>
                             <div className="card-body">
                                 <h5>{element.title}</h5>
                                 <hr></hr>
