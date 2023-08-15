@@ -39,6 +39,10 @@ const Navbar = () => {
                 <div>
                     <h5><Link to="/favoritos" className="text-light text-decoration-none">Favoritos</Link></h5>
                 </div>
+                <div>
+                    <h5><Link to="/Buys" className="text-light text-decoration-none">Compras</Link></h5>
+                </div>
+
                 <div className="navbar-brand">
                     <h5> <Link to="/" className="text-light text-decoration-none" onClick={() => Exit()}><i class="fa-solid fa-right-from-bracket"></i></Link></h5>
                 </div>                                                

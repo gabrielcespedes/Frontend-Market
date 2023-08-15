@@ -18,6 +18,7 @@ import Login from "./views/Login.jsx";
 import Favoritos from "./views/Favoritos";
 import Busqueda from './views/Busqueda';
 import DetailArtist from './views/DetailArtist';
+import Buys from './views/Buys';
 
 import axios from 'axios';
 
@@ -37,6 +38,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const [cartInfo, setCartInfo] = useState([]);
+  const [buysInfo, setBuysInfo] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const urlServer = `${process.env.REACT_APP_BACKEND_URL}`;
   const [reloadData, setReloadData] = useState(false);
@@ -49,6 +51,7 @@ function App() {
             "product_id": selectedProduct[0].product_id
         };
         await axios.put(urlServer+"/cart/sustract", body);
+        await axios.put(urlServer+"/buys/sustract", body);
 
         const artwork_index = artworks.findIndex((element) => element.product_id === Number(id));
         artworks[artwork_index].amount = artworks[artwork_index].amount - 1;
@@ -72,6 +75,8 @@ const addFunction = async (id, counter = null) => {
         };
         await axios.post(urlServer+"/cart", body);
 
+        await axios.post(urlServer+"/buys", body);
+
         const artwork_index = artworks.findIndex((element) => element.product_id === Number(id));
 
         if (counter === null) {
@@ -89,6 +94,30 @@ const addFunction = async (id, counter = null) => {
       throw error;
     }
 };
+
+const paidFunction = async (id) =>{
+  try {
+    await axios.put(urlServer+`/cart/paid/${id}`);
+    await axios.put(urlServer+`/buys/paid/${id}`);
+
+    const updateArtworks = artworks.map((artwork) => ({
+      ...artwork,
+      amount: 0,
+    }));
+
+    setArtworks(updateArtworks);
+
+    //console.log(artworks);
+    
+    setReloadData(true);
+
+    console.log("probando");
+  } catch (error) {
+    console.error("Error en petición PUT:", error);
+    throw error;
+  }
+}
+
 
 const updatingNavTotal = () => {
   //CALCULA EL VALOR TOTAL DEL CARRITO
@@ -178,7 +207,7 @@ const updatingNavTotal = () => {
   }, [cartInfo]);
 
 
-  const estadoCompartido = {artworks, setArtworks, navTotal, setNavTotal, updatingNavTotal, artistsInfo, setArtistsInfo, isLoggedIn, setIsLoggedIn, user, setUser, usersInfo, setUsersInfo, cartInfo, setCartInfo, sustractFunction, addFunction, reloadData, setReloadData};
+  const estadoCompartido = {artworks, setArtworks, navTotal, setNavTotal, updatingNavTotal, artistsInfo, setArtistsInfo, isLoggedIn, setIsLoggedIn, user, setUser, usersInfo, setUsersInfo, cartInfo, setCartInfo, sustractFunction, addFunction, reloadData, setReloadData, paidFunction, buysInfo, setBuysInfo};
 
   return (
     
@@ -194,6 +223,7 @@ const updatingNavTotal = () => {
           <Route path="/Registro" element={<Registro />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Profile" element={UserViewBuyer} />
+          <Route path='Buys' element={<Buys />}></Route>
           <Route path="*" element={<NotFound />} />
           <Route path='/artist/:id' element={<DetailArtist />} />
         </Routes>

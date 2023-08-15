@@ -3,10 +3,8 @@ import MyContext from "../my_context";
 import { useEffect} from "react";
 import { getCart } from '../services/cartService';
 
-
-
 const Carrito = () => {
-    const {navTotal, user, cartInfo, setCartInfo, sustractFunction, addFunction, reloadData, setReloadData} = useContext(MyContext);
+    const {navTotal, user, cartInfo, setCartInfo, sustractFunction, addFunction, reloadData, setReloadData, paidFunction} = useContext(MyContext);
 
     // const calculateTotal = () => {
     //     setNavTotal(updatingNavTotal);
@@ -47,7 +45,7 @@ const Carrito = () => {
                     <div className="text-end">
                         <h3 className="text-dark">Total: {Intl.NumberFormat('es-CL',{style:'currency',currency:'CLP'}).format(navTotal)}                                      
                         </h3>
-                        <button className="btn btn-dark">Ir a Pagar</button>
+                        <button className="btn btn-dark" onClick={() => paidFunction(user.user_id)}>Pagar</button>
                     </div>                
             </div>
         </div>
