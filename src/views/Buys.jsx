@@ -21,7 +21,7 @@ const Buys = () => {
     }, [reloadData]);
 
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 pt-5 pb-5">
             <div className="row justify-content-center">
                 <div className="col-md-6">
                     <div className="border p-4">

@@ -45,7 +45,7 @@ const RegisterView = () => {
     };
 
     return (
-        <Container className="d-flex justify-content-center align-items-center flex-column vh-70">
+        <Container className="d-flex justify-content-center align-items-center flex-column vh-70 mt-5">
             <div className="p-1">
                 <h5 className="mb-4">Registro de usuario</h5>
                 <div className="form-group mb-3">
