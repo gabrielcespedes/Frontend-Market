@@ -45,7 +45,7 @@ const RegisterView = () => {
     };
 
     return (
-        <Container className="d-flex justify-content-center align-items-center vh-100 flex-column">
+        <Container className="d-flex justify-content-center align-items-center flex-column vh-70">
             <div className="p-1">
                 <h5 className="mb-4">Registro de usuario</h5>
                 <div className="form-group mb-3">
@@ -81,7 +81,7 @@ const RegisterView = () => {
                         name='password'
                     />
                 </div>
-                <button onClick={registrarUsuario} className="btn btn-dark mb-3" variant="dark">
+                <button onClick={registrarUsuario} className="btn-custom-black">
                     Registrarse
                 </button>
             </div>            

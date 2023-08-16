@@ -85,27 +85,9 @@ const UserViewBuyer = ({ user }) => {
     const artistCollection = artworks.filter((element) => element.seller_id === user.user_id);
 
     return (
-        <Container className='d-flex align-items-center flex-column vh-100 mt-5 mb-3 pt-5'>
+        <Container className='d-flex align-items-center flex-column mt-5 mb-3 pt-5'>
             <h2>Bienvenido, {user.username}</h2>
-
             <Container className='pt-3'>
-                <h1 className="text-center h3">Obras</h1>
-                <CardGroup>
-                {
-                    artistCollection.map((element, index) => (
-                    <Card className="bg-light text-white p-2">
-                        <Card.Img 
-                        key={index}
-                        variant="top"
-                        className="artist-collection" 
-                        src={element.url_image} />
-                        <Card.ImgOverlay>
-                        <Card.Title>{element.title}</Card.Title>
-                        </Card.ImgOverlay>
-                    </Card>
-                    ))
-                }                
-                </CardGroup>
                 <Card className='mt-5 mb-5 text-center'>
                     <h2>Agregar Obra</h2>
                     <div className='form-group'>
@@ -118,10 +100,26 @@ const UserViewBuyer = ({ user }) => {
                         <br></br>
                         <input className='form-control' type='text' name='url_image' value={artworkData.url_image}   onChange={handleInputChange} placeholder='url imagen' ></input>
                         <br></br>
-                        <button onClick={handleAddArtwork} className='btn btn-dark mb-2'>Agregar obra</button>
-                    </div>
-                    {console.log(artworks)}
-                </Card>                
+                        <button onClick={handleAddArtwork} className='btn-custom-black p-2 mb-2'>Agregar obra</button>
+                    </div>                    
+                </Card>
+                <h1 className="text-center h3">Obras</h1>
+                <CardGroup className='pt-2 pb-1'>
+                {
+                    artistCollection.map((element, index) => (
+                    <Card className="bg-light text-white p-2 image-upload2">
+                        <Card.Img 
+                        key={index}
+                        variant="top"
+                        className="artist-collection" 
+                        src={element.url_image} />
+                        <Card.ImgOverlay>
+                        <Card.Title className='text-center'>{element.title}</Card.Title>
+                        </Card.ImgOverlay>
+                    </Card>
+                    ))
+                }                
+                </CardGroup>                          
             </Container>            
         </Container>
     );

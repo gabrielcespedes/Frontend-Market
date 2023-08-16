@@ -19,7 +19,7 @@ const CarouselImages = () => {
             };
     return(
 
-            <Container>        
+            <Container className="mt-3">        
                 <Row xs={1} md={2} lg={2}>
                     <Col>
                     <h3 className="text-center mt-3">Artistas</h3>

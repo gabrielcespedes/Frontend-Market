@@ -14,6 +14,7 @@ code {
 
 .tarjeta {
   width: 18rem;
+  border:none;
 }
 
 .image {
@@ -71,4 +72,155 @@ code {
 .heart_pointer.filled path {
   fill: red;
   stroke: none;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
+.btn-custom-black {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 3px;
+  /* Puedes agregar más estilos aquí según tus necesidades */
+}
+.no-border .card {
+  border: none; /* Anula el borde predeterminado */
+}
+
+.newsletter {
+  background-color: rgb(246, 200, 28);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  animation: rotateBanner 5s infinite alternate; /* Animación de cambio de color */
+}
+.header{
+  background-color: rgb(246, 200, 28);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+}
+
+.image-container img {
+  width: 400px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.accordion-title {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold; 
+}
+
+
+.accordion-title.open {
+  background-color: rgba(231, 222, 171, 0.1); /* Cambia este valor para ajustar la transparencia */
+}
+.accordion-item {
+  margin-top: 10px; 
+  
+}
+
+.accordion-content {
+  background-color: rgba(231, 222, 171, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.rotating-banner {
+  background-color: rgb(246, 200, 28);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  animation: rotateBanner 5s infinite alternate; /* Animación de cambio de color */
+}
+
+@keyframes rotateBanner {
+  0% {
+    background-color: rgb(251, 207, 49);
+  }
+  100% {
+    background-color: rgb(255, 197, 62); /* Variante más pronunciada */
+  }
+}
+
+.photo-sizes-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.photo-size {
+  width: 90px;
+  height: 50px;
+  margin: 5px;
+  margin-left: 0px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #000;
+  transition: border-color 0.3s;
+  cursor: pointer;
+  background-color:rgba(231, 222, 171, 0.1);
+}
+
+.photo-size:hover {
+  border-color: #ffd644;
+}
+
+.image-upload img {
+  width: 400px;
+  height: auto;
+  vertical-align: middle;
+}
+.image-upload:hover {
+  transform: scale(1.05);
+}
+
+.image-upload2:hover {
+  transform: scale(1.05);
+}
+
+.logo-img {
+  position: relative;
+  top: 0; 
+  left: 60%; 
+  max-width: 150px;
+  max-height: 100px; 
+}
+
+
+.logo-container {
+  position: absolute; 
 }

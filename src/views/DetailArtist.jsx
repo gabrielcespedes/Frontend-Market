@@ -15,7 +15,7 @@ const DetailArtist = () => {
     const artistCollection = artworks.filter((element) => element.seller_id === Number(id));
 
     return (
-        <Container className="border p-3 m-4  mt-5">
+        <Container className="border p-3 m-4  mt-5 pt-5">
         <Row xs={1} md={2} lg={2}>
             <Col>
             <Card>

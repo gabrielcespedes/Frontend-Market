@@ -7,6 +7,7 @@ import MyContext from './my_context';
 
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 import UserViewBuyer from './views/UserViewBuyer';
 import Home from './views/Home';
@@ -214,6 +215,7 @@ const updatingNavTotal = () => {
     <MyContext.Provider value={estadoCompartido}>
       <BrowserRouter>
         <Navbar />
+        <Header />
         <Routes>
           <Route path='/' element={<Home />}/> 
           <Route path='/carrito' element={<Carrito />}/>

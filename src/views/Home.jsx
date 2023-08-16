@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import MyContext from "../my_context";
 
 import CarouselImages from '../components/Carousel';
+import Newsletter from "../components/Newsletter";
 
 import Heart from '../components/Heart';
 
@@ -64,7 +65,7 @@ const Home = () => {
     }
 
     return(
-        <div className="pt-5">
+        <div className="pt-5 mt-4">
             <CarouselImages></CarouselImages>
             <div className="row w-100 mt-5">
                 {artworks.map(
@@ -89,6 +90,7 @@ const Home = () => {
                 )
                 }
             </div>
+            <Newsletter />
         </div>
     )
 

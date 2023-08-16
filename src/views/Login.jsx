@@ -65,7 +65,7 @@ const LoginView = () => {
     return isLoggedIn ? (
         <UserViewBuyer user={user} />
     ) : (
-        <Container className="d-flex justify-content-center align-items-center flex-column vh-100">
+        <Container className="d-flex justify-content-center align-items-center flex-column vh-70">
             <h5 className="mb-3">Inicia Sesión</h5>
             <div>
                 <div className="form-group mb-3">
@@ -92,7 +92,7 @@ const LoginView = () => {
                     />
                 </div>
 
-                <button onClick={iniciarSesion} className="btn btn-dark mb-3" type="submit">
+                <button onClick={iniciarSesion} className="btn-custom-black mb-3" type="submit">
                     Iniciar Sesión
                 </button>
             </div>
