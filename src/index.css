@@ -208,6 +208,10 @@ code {
   transform: scale(1.05);
 }
 
+.image-upload2 img{
+  max-width: 400px;
+}
+
 .image-upload2:hover {
   transform: scale(1.05);
 }
